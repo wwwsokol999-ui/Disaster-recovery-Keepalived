@@ -69,3 +69,4 @@ sudo systemctl enable nginx
 sudo systemctl start nginx
 ```
 ![Keepalived](Keepalived.png)
+![Keepalived1](Keepalived1.png)
