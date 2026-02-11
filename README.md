@@ -41,14 +41,14 @@
 ## Основные команды
  ###Router1 (Active)
 
-``bash
+```bash
 interface g0/1
  standby version 2
  standby 1 ip 192.168.1.1
  standby 1 priority 110
  standby 1 preempt
 
- 🧪 Задание 2
+# 🔹 Задание 2
 
 ---
 
