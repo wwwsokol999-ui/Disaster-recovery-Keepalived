@@ -67,3 +67,5 @@ sudo apt update
 sudo apt install nginx keepalived curl netcat -y
 sudo systemctl enable nginx
 sudo systemctl start nginx
+```
+![Keepalived](hsrp.png)
