@@ -36,3 +36,34 @@ interface g0/1
  standby 1 priority 110
  standby 1 preempt
  standby 1 track g0/0 20
+```
+## 🖧 Схема сети
+
+### Топология
+
+- 2 Linux VM (Ubuntu)
+- nginx на каждом сервере
+- Keepalived (VRRP)
+- 1 Virtual IP
+
+---
+
+### Подсети
+
+| Узел | IP |
+|-------|----------------|
+| Server1 (MASTER) | 192.168.238.130 |
+| Server2 (BACKUP) | 192.168.238.131 |
+| Virtual IP (VIP) | 192.168.238.200 |
+
+---
+
+## ⚙️ Установка ПО
+
+На **обеих ВМ**:
+
+```bash
+sudo apt update
+sudo apt install nginx keepalived curl netcat -y
+sudo systemctl enable nginx
+sudo systemctl start nginx
