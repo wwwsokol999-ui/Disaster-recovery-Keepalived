@@ -37,10 +37,10 @@ interface g0/1
  standby 1 preempt
  standby 1 track g0/0 20
 ```
-![Cisco](Cisco.png)
-![Cisco1](Cisco1.png)
-![Cisco2](Cisco2.png)
-![cis](cis.png)
+![Cisco](Cisco.PNG)
+![Cisco1](Cisco1.PNG)
+![Cisco2](Cisco2.PNG)
+![cis](cis.PNG)
 
 ## 🖧 Схема сети
 
