@@ -39,7 +39,7 @@
 ---
 
 ## Основные команды
- ###Router1 (Active)
+ ### Router1 (Active)
 
 ```bash
 interface g0/1
@@ -47,7 +47,7 @@ interface g0/1
  standby 1 ip 192.168.1.1
  standby 1 priority 110
  standby 1 preempt
-
+```
 # 🔹 Задание 2
 
 ---
